@@ -92,11 +92,54 @@ header{
 }
 .footer__social{
     display: flex;
-    padding: 0;
     gap:15px;
-    margin: 0;
+
 }
 
 
 
 
+@media (max-width:1000px){
+    .container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media (max-width:900px){
+    .footer__inner{
+        flex-wrap: wrap;
+    }
+    .footer__contacts{
+        padding-top: 15px;
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width:768px){
+    .container{
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+    body{
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .header__inner{
+        padding-top: 0;
+    }
+    .phone::before{
+        background-size: cover;
+        width: 14px;
+        height: 14px;
+        left: -16px;
+        top: 0px;
+    }
+    .footer__social{
+        gap: 8px;
+    }
+    .footer__social-img{
+        object-fit: cover;
+        height: 18px;
+        width: 18px;
+    }
+}
