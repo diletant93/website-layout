@@ -12,11 +12,12 @@ ul{
 }
 body{
     color: #000;
-    font-family: Comfortaa;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Yeseva One', serif; */
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.2;
 }
 
 a{
@@ -42,4 +43,7 @@ header{
 .menu__list{
     display: flex;
     gap: 20px;
+}
+.menu__list-link{
+    text-transform: uppercase;
 }
